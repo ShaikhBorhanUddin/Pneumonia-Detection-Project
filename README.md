@@ -1,4 +1,4 @@
-# 🩺 Pneumonia Detection from Chest X-Rays using DenseNet121
+# 🩺 Pneumonia Detection from Chest X-Rays using Transfer Learning Models
 ## 📌 Project Overview
 This project focuses on developing a deep learning-based system to automatically detect Pneumonia from chest X-ray images. Recognizing the critical importance of early diagnosis in respiratory diseases, especially pneumonia, this project compares the performance of five state-of-the-art convolutional neural network (CNN) architectures to identify the most effective model for accurate detection.
 
