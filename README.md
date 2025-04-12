@@ -29,7 +29,10 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
 
 - Data Split:
 
-`Training`  `Validation`  `Test`
+`Train` `Test`
+
+<img src="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/data/Dataset_Visualization.png?raw=true" alt="Dashboard" width="1000"/>
+
 ## 📁 Project Structure
 
 ```bash
@@ -47,5 +50,24 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
 ├── 📄 requirements.txt
 ├── 📄 README.md
 └── 📄 LICENSE
-
 ```
+## 🧾 Requirements
+
+`Python 3.x` `TensorFlow` `Keras` `Matplotlib` `Numpy` `Scikit-learn`
+
+
+## 🤝 Contributing
+Contributions are welcome!
+Feel free to fork the project and submit a pull request.
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 🙌 Acknowledgements
+- ```Paul Mooney``` for the dataset
+- TensorFlow / Keras community
+- Medical professionals contributing to open datasets
+
+## 🌟 Let's Connect!
+If you like this project, please give it a ⭐!
+Feel free to connect with me on LinkedIn or check out more of my work on GitHub.
