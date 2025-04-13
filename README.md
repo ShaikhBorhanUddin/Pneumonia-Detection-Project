@@ -90,9 +90,31 @@ Some Grad-CAM visualizations are included here. Click images for enlarged view.
     <img src="outputs/gradcam_vgg16.png" width="329"/>
 </p>
 
-For model specific visualizations, click
+For model specific visualizations, please refer to .ipynb files.
 
-`ConvNeXtBase_Pneumonia.ipynb` `DenseNet121_Pneumonia.ipynb`
+<a href="path/to/ConvNeXtBase_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
+  <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">ConvNeXtBase_Pneumonia.ipynb</code>
+</a>
+<a href="path/to/DenseNet121_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
+  <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">DenseNet121_Pneumonia.ipynb</code>
+</a>
+<a href="path/to/ResNet50V2_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
+  <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">ResNet50V2_Pneumonia.ipynb</code>
+</a>
+<a href="path/to/ResNet101V2_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
+  <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">ResNet101V2_Pneumonia.ipynb</code>
+</a>
+<a href="path/to/VGG16_Pneumonia.ipynb" style="text-decoration: none;">
+  <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">VGG16_Pneumonia.ipynb</code>
+</a>
+
+###
+Due to the dataset imbalance and the 224×224 pixel input size, the model occasionally misclassified normal images as Pneumonia or focused on less relevant regions in the X-rays, with some misclassifications highlighting areas outside the lungs.
+
+## 🚀 Future Development
+As future development, the project aims to address dataset imbalance by incorporating more balanced datasets and advanced augmentation techniques, alongside exploring synthetic data generation methods like GANs to enrich the minority class. Model improvements will focus on experimenting with advanced architectures such as EfficientNet or Vision Transformers, fine-tuning hyperparameters, and integrating explainability tools like Grad-CAM++ for deeper insights into model predictions. Additionally, plans include enhancing evaluation with metrics like AUC-ROC and precision-recall curves, implementing experiment tracking tools such as MLflow, and deploying the model as an interactive web application for real-time inference. Collaborations with medical experts for clinical validation are also envisioned to ensure the model's practical relevance and reliability.
+
+
 
 ## 🤝 Contributing 
 Contributions are welcome!
