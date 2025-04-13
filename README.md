@@ -95,16 +95,16 @@ For model specific visualizations, please refer to .ipynb files.
 <a href="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/src/Pneumonia_ConvNeXtBase.ipynb" style="text-decoration: none; margin-right: 8px;">
   <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">ConvNeXtBase_Pneumonia.ipynb</code>
 </a>
-<a href="path/to/DenseNet121_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
+<a href="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/src/Pneumonia_DenseNet121.ipynb" style="text-decoration: none; margin-right: 8px;">
   <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">DenseNet121_Pneumonia.ipynb</code>
 </a>
-<a href="path/to/ResNet50V2_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
+<a href="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/src/Pneumonia_ResNet50V2.ipynb" style="text-decoration: none; margin-right: 8px;">
   <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">ResNet50V2_Pneumonia.ipynb</code>
 </a>
-<a href="path/to/ResNet101V2_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
+<a href="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/src/Pneumonia_ResNet101V2.ipynb" style="text-decoration: none; margin-right: 8px;">
   <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">ResNet101V2_Pneumonia.ipynb</code>
 </a>
-<a href="path/to/VGG16_Pneumonia.ipynb" style="text-decoration: none;">
+<a href="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/src/Pneumonia_VGG16.ipynb" style="text-decoration: none;">
   <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">VGG16_Pneumonia.ipynb</code>
 </a>
 
