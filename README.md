@@ -82,14 +82,18 @@ Confusion Matrix of all 5 tests are included here. Click images for enlarged vie
 ConvNeXtBase and VGG16 exhibit more balanced results in comparison to the other models. These models show a better trade-off between correctly identifying 'Pneumonia' cases (True Positives) and minimizing misclassifications (False Positives and False Negatives). DenseNet121, ResNet50V2, and ResNet101V2 demonstrated some imbalance, with either a higher number of False Negatives or False Positives. While these models performed well overall, their results showed a tendency to misclassify 'Pneumonia' cases more frequently than ConvNeXtBase and VGG16. This indicates that ConvNeXtBase and VGG16 have achieved a more reliable and consistent classification performance, making them preferable for deployment in real-world scenarios where accuracy and balanced performance are crucial.
 
 ## 🔥 Grad-CAM Visualizations
-
+Some Grad-CAM visualizations are included here. Click images for enlarged view.
 <p align="center">
     <img src="outputs/gradcam_convnextbase.png" width="329"/>
     <img src="outputs/gradcam_resnet50v2.png" width="329"/>
     <img src="outputs/gradcam_vgg16.png" width="329"/>
 </p>
 
-## 🤝 Contributing
+For model specific visualizations, click
+
+`ConvNeXtBase_Pneumonia.ipynb` `DenseNet121_Pneumonia.ipynb`
+
+## 🤝 Contributing 
 Contributions are welcome!
 Feel free to fork the project and submit a pull request.
 
