@@ -92,7 +92,7 @@ Some Grad-CAM visualizations are included here. Click images for enlarged view.
 
 For model specific visualizations, please refer to .ipynb files.
 
-<a href="path/to/ConvNeXtBase_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
+<a href="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/src/Pneumonia_ConvNeXtBase.ipynb" style="text-decoration: none; margin-right: 8px;">
   <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">ConvNeXtBase_Pneumonia.ipynb</code>
 </a>
 <a href="path/to/DenseNet121_Pneumonia.ipynb" style="text-decoration: none; margin-right: 8px;">
