@@ -51,7 +51,7 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
 │
 ├── 📄 requirements.txt
 ├── 📄 README.md
-└── 📄 LICENSE
+└── 📄 LICENCE
 ```
 ## 🧾 Requirements
 
