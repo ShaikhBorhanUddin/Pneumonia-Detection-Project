@@ -1,4 +1,9 @@
 # 🩺 Pneumonia Detection from CXR using Transfer Learning Models
+![Project Status](https://img.shields.io/badge/status-Completed-success?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNN%20%2B%20Transfer%20Learning-orange?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
+
 ## 📌 Project Overview
 This project focuses on developing a deep learning-based system to automatically detect Pneumonia from chest X-ray images. Recognizing the critical importance of early diagnosis in respiratory diseases, especially pneumonia, this project compares the performance of five state-of-the-art convolutional neural network (CNN) architectures to identify the most effective model for accurate detection.
 
@@ -19,17 +24,14 @@ The project emphasizes:
 The outcome provides valuable insights into the effectiveness of different CNN architectures for medical imaging tasks, specifically pneumonia detection.
 
 ## 📂 Dataset
-- Source:
 
 The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?raw=true)
 
-- Classes:
+**Note:** Due to the large size of the dataset, it is **not included in this repository**. Please download the dataset manually from Kaggle and place it in the following structure:
 
-`Normal`  `Pneumonia`
+- Classes: `Normal`  `Pneumonia`
 
-- Data Split:
-
-`Train` `Test`
+- Data Split: `Train` `Test`
 
 <img src="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/data/Dataset_Visualization.png?raw=true" alt="Dashboard" width="1010"/>
 
