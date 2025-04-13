@@ -76,6 +76,13 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
   <img src="outputs/cm_vgg16.png" width="197"/>
 </p>
 
+## 🔥 Grad-CAM Visualizations
+
+<p align="center">
+    <img src="outputs/gradcam_convnextbase.png" width="329"/>
+    <img src="outputs/gradcam_resnet50v2.png" width="329"/>
+    <img src="outputs/gradcam_vgg16.png" width="329"/>
+</p>
 ## 🤝 Contributing
 Contributions are welcome!
 Feel free to fork the project and submit a pull request.
