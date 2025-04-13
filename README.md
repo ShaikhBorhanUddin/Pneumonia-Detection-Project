@@ -56,6 +56,15 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
 ## 🧾 Requirements
 
 `Python 3.x` `TensorFlow` `Keras` `Matplotlib` `Numpy` `Scikit-learn`
+## 📊 Model Performance Comparison
+
+| Model          | Accuracy | F1 Score | Loss   | Precision | Recall  |
+|----------------|----------|----------|--------|-----------|---------|
+| ConvNeXtBase   | 0.9705   | 0.9544   | 0.0747 | 0.9705    | 0.9705  |
+| DenseNet121    | 0.9086   | 0.9285   | 0.3432 | 0.9086    | 0.9086  |
+| ResNet50V2     | 0.9537   | 0.9459   | 0.1723 | 0.9537    | 0.9537  |
+| ResNet101V2    | 0.9595   | 0.9356   | 0.1784 | 0.9595    | 0.9595  |
+| VGG16          | 0.9595   | 0.9192   | 0.1030 | 0.9595    | 0.9595  |
 
 
 ## 🤝 Contributing
