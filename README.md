@@ -70,6 +70,7 @@ ConvNeXtBase outperforms the others with the highest accuracy and F1 score, indi
 
 These results demonstrate that while all models perform well, ConvNeXtBase is the top performer for this task.
 ## 🧩 Confusion Matrices
+Confusion Matrix of all 5 tests are included here. Click images for enlarged view.
 
 <p align="left">
   <img src="outputs/cm_convnextbase.png" width="197"/>
@@ -78,7 +79,7 @@ These results demonstrate that while all models perform well, ConvNeXtBase is th
   <img src="outputs/cm_resnet101v2.png" width="197"/>
   <img src="outputs/cm_vgg16.png" width="197"/>
 </p>
-Confusion Matrix of all 5 tests are included here. Click images for enlarged view.
+ConvNeXtBase and VGG16 exhibit more balanced results in comparison to the other models. These models show a better trade-off between correctly identifying 'Pneumonia' cases (True Positives) and minimizing misclassifications (False Positives and False Negatives). DenseNet121, ResNet50V2, and ResNet101V2 demonstrated some imbalance, with either a higher number of False Negatives or False Positives. While these models performed well overall, their results showed a tendency to misclassify 'Pneumonia' cases more frequently than ConvNeXtBase and VGG16. This indicates that ConvNeXtBase and VGG16 have achieved a more reliable and consistent classification performance, making them preferable for deployment in real-world scenarios where accuracy and balanced performance are crucial.
 
 ## 🔥 Grad-CAM Visualizations
 
