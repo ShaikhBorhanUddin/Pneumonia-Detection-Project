@@ -66,6 +66,9 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
 | ResNet101V2    | 0.9595   | 0.9356   | 0.1784 | 0.9595    | 0.9595  |
 | VGG16          | 0.9595   | 0.9192   | 0.1030 | 0.9595    | 0.9595  |
 
+ConvNeXtBase outperforms the others with the highest accuracy and F1 score, indicating strong generalization and precise predictions. DenseNet121 performs well but slightly trails behind ConvNeXtBase, with a good balance between precision and recall. ResNet50V2 offers a strong performance with high precision and recall, making it a reliable choice for detecting pneumonia. ResNet101V2 shows similar performance to ResNet50V2 but with slightly higher accuracy and a better F1 score. VGG16 offers solid results, although it performs slightly lower compared to the other models.
+
+These results demonstrate that while all models perform well, ConvNeXtBase is the top performer for this task.
 ## 🧩 Confusion Matrices
 
 <p align="left">
@@ -75,6 +78,7 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
   <img src="outputs/cm_resnet101v2.png" width="197"/>
   <img src="outputs/cm_vgg16.png" width="197"/>
 </p>
+Confusion Matrix of all 5 tests are included here. Click images for enlarged view.
 
 ## 🔥 Grad-CAM Visualizations
 
@@ -83,6 +87,7 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
     <img src="outputs/gradcam_resnet50v2.png" width="329"/>
     <img src="outputs/gradcam_vgg16.png" width="329"/>
 </p>
+
 ## 🤝 Contributing
 Contributions are welcome!
 Feel free to fork the project and submit a pull request.
