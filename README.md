@@ -66,6 +66,15 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
 | ResNet101V2    | 0.9595   | 0.9356   | 0.1784 | 0.9595    | 0.9595  |
 | VGG16          | 0.9595   | 0.9192   | 0.1030 | 0.9595    | 0.9595  |
 
+## 🧩 Confusion Matrices
+
+<p align="left">
+  <img src="outputs/cm_convnextbase.png" width="197"/>
+  <img src="outputs/cm_densenet121.png" width="197"/>
+  <img src="outputs/cm_resnet50v2.png" width="197"/>
+  <img src="outputs/cm_resnet101v2.png" width="197"/>
+  <img src="outputs/cm_vgg16.png" width="197"/>
+</p>
 
 ## 🤝 Contributing
 Contributions are welcome!
