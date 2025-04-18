@@ -46,7 +46,7 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
 │   ├── 📓 ResNet101V2_Pneumonia.ipynb
 │   └── 📓 VGG16_Pneumonia.ipynb
 │
-├── 📁 data/                     # Dataset not uploaded in repositorydue to large size
+├── 📁 data/                     # Dataset not uploaded in repository due to large size
 ├── 📁 outputs/                  # Results and Visualizations
 │
 ├── 📄 requirements.txt
