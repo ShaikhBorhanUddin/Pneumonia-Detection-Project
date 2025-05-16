@@ -34,6 +34,8 @@ The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumon
 
 - Data Split: `Train` `Test`
 
+The image distribution of the dataset is as follows:
+
 <img src="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/data/Dataset_Visualization.png?raw=true" alt="Dashboard" width="1010"/>
 
 ## 📁 Project Structure
