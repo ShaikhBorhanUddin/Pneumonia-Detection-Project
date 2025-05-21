@@ -26,17 +26,16 @@ The outcome provides valuable insights into the effectiveness of different CNN a
 
 ## 📂 Dataset
 
-The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?raw=true)
+The dataset sourced from Kaggle. To access it click [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia?raw=true). Due to the large size, it is **not included in this repository**.
 
-**Note:** Due to the large size of the dataset, it is **not included in this repository**. Please download the dataset manually from Kaggle and place it in the following structure:
-
-- Classes: `Normal`  `Pneumonia`
-
-- Data Split: `Train` `Test`
-
-The image distribution of the dataset is as follows:
+The dataset is organized into three folders: train, test, and validation. Each folder contains subfolders for two image categories: Pneumonia and Normal. In total, there are 5,863 chest X-ray images in JPEG format classified into these two categories. The image distribution of the dataset is as follows:
 
 <img src="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/data/Dataset_Visualization.png?raw=true" alt="Dashboard" width="1010"/>
+
+The chest X-ray images, taken from retrospective cohorts of pediatric patients aged one to five years, were sourced from the Guangzhou Women and Children’s Medical Center in Guangzhou. All imaging was conducted as part of the patients’ routine clinical care.
+
+For the analysis of the chest X-ray images, the initial screening involved quality control, during which all low-quality or unreadable scans were removed. After this, two expert physicians graded the diagnoses for the images before they were approved for training the AI system. To account for any potential grading errors, a third expert reviewed the evaluation set.
+
 
 ## 📁 Project Structure
 
