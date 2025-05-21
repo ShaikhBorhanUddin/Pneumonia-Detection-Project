@@ -1,8 +1,17 @@
 # 🩺 Pneumonia Detection from CXR using Transfer Learning Models
-![Project Status](https://img.shields.io/badge/status-Completed-success?style=flat-square)
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=flat-square&logo=python)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-CNN%20%2B%20Transfer%20Learning-orange?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
+<p align="left">
+  <img src="https://img.shields.io/badge/Made%20With-Colab-blue?logo=googlecolab&logoColor=white&label=Made%20With" alt="Made with Colab">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License: MIT">
+  <img src="https://img.shields.io/github/repo-size/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models" alt="Repo Size">
+  <img src="https://img.shields.io/github/last-commit/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models" alt="Last Commit">
+  <img src="https://img.shields.io/github/issues/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models" alt="Issues">
+  <img src="https://img.shields.io/badge/Data%20Visualization-Python-yellow?logo=python" alt="Data Visualization: Python">
+  <img src="https://img.shields.io/badge/Result%20Visualization-Grad--CAM-red?style=flat" alt="Result Visualization: Grad-CAM">
+  <img src="https://img.shields.io/badge/Version%20Control-Git-orange?logo=git" alt="Version Control: Git">
+  <img src="https://img.shields.io/badge/Host-GitHub-black?logo=github" alt="Host: GitHub">
+  <img src="https://img.shields.io/github/forks/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models?style=social" alt="Forks">
+  <img src="https://img.shields.io/badge/Project-Completed-brightgreen" alt="Project Status">
+</p>
 
 ![dashboard](https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models/blob/main/data/pneumonia_heading.png?raw=true)
 ## 📌 Project Overview
