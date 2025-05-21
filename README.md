@@ -26,9 +26,7 @@ Each model was trained and validated on a labeled dataset of chest X-ray images,
 The project emphasizes:
 
 - Comparative analysis of model performance
-
 - Evaluation based on accuracy, precision, recall, and F1-score
-
 - Clean codebase with individual notebooks for each model under the src/ directory
 
 The outcome provides valuable insights into the effectiveness of different CNN architectures for medical imaging tasks, specifically pneumonia detection.
