@@ -65,6 +65,11 @@ For the analysis of the chest X-ray images, the initial screening involved quali
 ## 🧾 Requirements
 
 `Python 3.x` `TensorFlow` `Keras` `Matplotlib` `Numpy` `Scikit-learn`
+
+## 🧪 Experiments
+
+In this project, five deep learning models were systematically evaluated on the pneumonia chest X-ray dataset to assess their performance in binary classification. All models were trained for 30 epochs using the ImageDataGenerator for real-time data augmentation and mixed precision training to optimize GPU usage and accelerate computation. The ConvNeXtBase model, comprising 88.6 million parameters, was trained using the Adam optimizer with a learning rate of 0.001, a batch size of 256, and a dense layer of 1204 units. DenseNet121, with 7.5 million parameters, utilized the same optimizer and learning rate but with a larger batch size of 512 and a 512-unit dense layer. ResNet50V2 and ResNet101V2 models shared the same hyperparameters—learning rate of 0.0001, batch size of 512, and 512-unit dense layer—but differed in complexity, with 24.5 million and 43.5 million parameters respectively. VGG16, consisting of 15.2 million parameters, was also trained with a batch size of 512 and a learning rate of 0.001. All models employed categorical cross-entropy as the loss function and incorporated class weighting to mitigate the impact of dataset imbalance, ensuring more robust learning across both classes. Each experiment was conducted on an NVIDIA A100 GPU with 40GB memory, using input images resized to 224×224 pixels; although this facilitated efficient model training, the relatively low resolution of the inputs meant some loss of diagnostic detail was inevitable.
+
 ## 📊 Model Performance Comparison
 
 | Model          | Accuracy | F1 Score | Loss   | Precision | Recall  |
