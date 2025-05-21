@@ -85,19 +85,22 @@ Confusion Matrix of all 5 tests are included here. Click images for enlarged vie
 ConvNeXtBase and VGG16 exhibit more balanced results in comparison to the other models. These models show a better trade-off between correctly identifying 'Pneumonia' cases (True Positives) and minimizing misclassifications (False Positives and False Negatives). DenseNet121, ResNet50V2, and ResNet101V2 demonstrated some imbalance, with either a higher number of False Negatives or False Positives. While these models performed well overall, their results showed a tendency to misclassify 'Pneumonia' cases more frequently than ConvNeXtBase and VGG16. This indicates that ConvNeXtBase and VGG16 have achieved a more reliable and consistent classification performance, making them preferable for deployment in real-world scenarios where accuracy and balanced performance are crucial.
 
 ## 🔥 Grad-CAM Visualizations
-Some Grad-CAM visualizations are included here. Click images for enlarged view.
+
+Due to constraints in computational resources and available model options, training had to be conducted using lower-resolution images. As a result, some degree of misclassification and attention to less relevant regions in the images was anticipated. Some Grad-CAM visualizations are included in this section. Click images for enlarged view.
 
 ![Dashboard](https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models/blob/main/outputs/gradcam_vgg16.png?raw=true)
 
 The first Grad-CAM visualization from the VGG19 model highlights the regions of the chest X-ray image that were most influential in the model's classification decision. In the heatmap on the right, warmer colors such as red and yellow indicate areas of high importance, while cooler colors like blue show regions of lower relevance. For this particular image, which is correctly classified as "NORMAL," the model focuses its attention primarily around the upper thoracic region, including the trachea, upper ribs, and clavicles. This pattern suggests that the model is evaluating the symmetry and clarity of lung fields and the absence of opacities or consolidations typically associated with pneumonia. The highlighted regions align well with typical diagnostic cues used by radiologists, indicating that the model is not only accurate but also interpretable in terms of clinical reasoning.
 
-<p align="left">
-    <img src="outputs/gradcam_convnextbase.png" width="329"/>
-    <img src="outputs/gradcam_resnet50v2.png" width="329"/>
-    <img src="outputs/gradcam_vgg16.png" width="329"/>
-</p>
+![Dashboard](https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models/blob/main/outputs/gradcam_convnextbase.png?raw=true)
 
-For model specific visualizations, please refer to .ipynb files.
+The second Grad-CAM visualization from the ConvNeXtBase model provides insight into how the network interprets and identifies features indicative of pneumonia in pediatric chest X-rays. In this correctly classified case of pneumonia, the heatmap shows intense activation—represented by red and yellow regions—primarily in the lower and peripheral zones of both lungs, particularly on the left side of the image, which correlates with areas where pathological features such as infiltrates or consolidations typically appear. The focus of the model on these asymmetric and dense regions suggests that it has learned to distinguish abnormal pulmonary patterns associated with infection. The visual explanation closely aligns with clinical expectations, demonstrating that the model not only achieves accurate predictions but does so by relying on diagnostically relevant anatomical features.
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models/blob/main/outputs/gradcam_resnet50v2.png?raw=true)
+
+The Grad-CAM visualization from the ResNet50V2 model reveals a misclassification, where a normal chest X-ray was incorrectly predicted as pneumonia. The heatmap indicates concentrated activation in the central and lower lung region, particularly over the cardiac silhouette, with intense red and yellow hues suggesting high model attention. This misinterpretation might stem from overlapping anatomical structures such as the heart and diaphragm, which can occasionally mimic pathological patterns in frontal radiographs. The model’s focus on this central area, despite the absence of infiltrates or asymmetry typically seen in pneumonia, suggests a limitation in its ability to differentiate normal anatomical density from disease-related opacities. This example highlights the importance of interpretability in deep learning models, as visual tools like Grad-CAM can help uncover potential biases or areas where the model may be overfitting to irrelevant or misleading features.
+
+For more model specific visualizations, please refer to .ipynb files.
 
 <a href="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/src/Pneumonia_ConvNeXtBase.ipynb" style="text-decoration: none; margin-right: 8px;">
   <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">ConvNeXtBase_Pneumonia.ipynb</code>
@@ -114,9 +117,6 @@ For model specific visualizations, please refer to .ipynb files.
 <a href="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/src/Pneumonia_VGG16.ipynb" style="text-decoration: none;">
   <code style="padding: 4px 8px; border-radius: 6px; background: #2d2d2d; color: white;">VGG16_Pneumonia.ipynb</code>
 </a>
-
-###
-Due to the dataset imbalance and the 224×224 pixel input size, the model occasionally misclassified normal images as Pneumonia or focused on less relevant regions in the X-rays, with some misclassifications highlighting areas outside the lungs.
 
 ## 🚀 Future Development
 As future development, the project aims to address dataset imbalance by incorporating more balanced datasets and advanced augmentation techniques, alongside exploring synthetic data generation methods like GANs to enrich the minority class. Model improvements will focus on experimenting with advanced architectures such as EfficientNet or Vision Transformers, fine-tuning hyperparameters, and integrating explainability tools like Grad-CAM++ for deeper insights into model predictions. Additionally, plans include enhancing evaluation with metrics like AUC-ROC and precision-recall curves, implementing experiment tracking tools such as MLflow, and deploying the model as an interactive web application for real-time inference. Collaborations with medical experts for clinical validation are also envisioned to ensure the model's practical relevance and reliability.
