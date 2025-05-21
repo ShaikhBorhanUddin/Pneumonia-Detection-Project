@@ -86,6 +86,11 @@ ConvNeXtBase and VGG16 exhibit more balanced results in comparison to the other 
 
 ## 🔥 Grad-CAM Visualizations
 Some Grad-CAM visualizations are included here. Click images for enlarged view.
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models/blob/main/outputs/gradcam_vgg16.png?raw=true)
+
+The first Grad-CAM visualization from the VGG19 model highlights the regions of the chest X-ray image that were most influential in the model's classification decision. In the heatmap on the right, warmer colors such as red and yellow indicate areas of high importance, while cooler colors like blue show regions of lower relevance. For this particular image, which is correctly classified as "NORMAL," the model focuses its attention primarily around the upper thoracic region, including the trachea, upper ribs, and clavicles. This pattern suggests that the model is evaluating the symmetry and clarity of lung fields and the absence of opacities or consolidations typically associated with pneumonia. The highlighted regions align well with typical diagnostic cues used by radiologists, indicating that the model is not only accurate but also interpretable in terms of clinical reasoning.
+
 <p align="left">
     <img src="outputs/gradcam_convnextbase.png" width="329"/>
     <img src="outputs/gradcam_resnet50v2.png" width="329"/>
