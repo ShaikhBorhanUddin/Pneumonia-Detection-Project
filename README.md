@@ -39,7 +39,9 @@ The dataset is organized into three folders: train, test, and validation. Each f
 
 <img src="https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-Project/blob/main/data/Dataset_Visualization.png?raw=true" alt="Dashboard" width="1010"/>
 
-The chest X-ray images, taken from retrospective cohorts of pediatric patients aged one to five years, were sourced from the Guangzhou Women and Children’s Medical Center in Guangzhou. All imaging was conducted as part of the patients’ routine clinical care.
+The chest X-ray images, taken from retrospective cohorts of pediatric patients aged one to five years, were sourced from the Guangzhou Women and Children’s Medical Center in Guangzhou. All imaging was conducted as part of the patients’ routine clinical care.  
+
+![Dashboard](https://github.com/ShaikhBorhanUddin/Pneumonia-Detection-from-CXR-using-Transfer-Learning-Models/blob/main/outputs/sample.png?raw=true)
 
 For the analysis of the chest X-ray images, the initial screening involved quality control, during which all low-quality or unreadable scans were removed. After this, two expert physicians graded the diagnoses for the images before they were approved for training the AI system. To account for any potential grading errors, a third expert reviewed the evaluation set.
 
